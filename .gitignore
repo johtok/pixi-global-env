@@ -2,15 +2,15 @@
 *
 
 #including things
-!.apps/
-!.cargo/
-!.pixi/
-!.rustup/
-!.oh-my-zsh/
-!.local/
+!.apps/*
+!.cargo/*
+!.pixi/*
+!.rustup/*
+!.oh-my-zsh/*
+!.local/*
 !install_dependencies.sh
-!.jupyter/
-!.ipython/
+!.jupyter/*
+!.ipython/*
 
 #including git stuff
 !.gitignore
