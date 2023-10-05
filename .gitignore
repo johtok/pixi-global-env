@@ -1,0 +1,17 @@
+#ignoring all
+*
+
+#including things
+!.apps
+!.cargo
+!.pixi
+!.rustup
+!.oh-my-zsh
+!.local
+!install_dependencies.sh
+!.jupyter
+!.ipython
+
+#including git stuff
+!.gitignore
+!.gitattributes
