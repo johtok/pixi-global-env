@@ -20,3 +20,11 @@ curl -LO https://github.com/helix-editor/helix/releases/download/23.05/helix-23.
 mv ./helix-23.05-x86_64.AppImage ./hx
 chmod u+x ./hx
 cd 
+
+echo "installing pixi"
+curl -fsSL https://pixi.sh/install.sh | bash
+
+pixi global install zsh 
+
+echo "~/.pixi/bin/zsh && exit" >> .bashrc
+
